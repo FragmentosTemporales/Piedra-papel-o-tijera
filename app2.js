@@ -36,8 +36,8 @@ while (contadorA != 0 && contadorB != 0)
 if (contadorA == 0 || contadorB == 0){
    
    if (contadorA > contadorB){
-      document.body.innerHTML = "El jugador B ha quedado sin puntos! Gana el jugador A"
+      document.body.innerHTML = "El jugador B ha quedado sin puntos! Gana el jugador A con: " + contadorA + " puntos"
    }  else {
-      document.body.innerHTML = "El jugador A ha quedado sin puntos! Gana el jugador B"
+      document.body.innerHTML = "El jugador A ha quedado sin puntos! Gana el jugador B con: " + contadorB + " puntos"
    }
 }
